@@ -1,0 +1,103 @@
+/* Estilos base que se aplicarán en todas las pantallas */
+.sect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.formulario-cajaa {
+    position: relative;
+    width: 550px;
+    height: 800px;
+    background: var(--color-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border-color: black;
+}
+
+.registro {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.inputCaja {
+    position: relative;
+    margin: 20px 0;
+    /* Reducir el margen vertical */
+    width: 100%;
+    /* Hacer que los campos ocupen el ancho completo */
+    border-bottom: 2px solid #fff;
+}
+
+.inputCaja label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+ 
+
+.inputCaja input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+.inputCaja ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.BtnIngresar {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.registrarse {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.registrarse p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Estilos para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+@media (max-width: 768px) {
+    .formulario-cajaa {
+        width: 90%;
+        /* Cambia el ancho del formulario */
+        height: auto;
+        /* Ajusta la altura automáticamente */
+        padding: 20px;
+        /* Añade espacio interno para mejorar la legibilidad */
+    }
+}

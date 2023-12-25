@@ -1,0 +1,94 @@
+/* -------------------------------------------------------------- */
+body {
+    position: relative;
+    min-height: 100vh;
+    /* Resto de tus estilos para el body... */
+}
+/* Estilo para el footer */
+.Fotersito {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    min-height: 1vh;
+    z-index: 999;
+
+    /* Usa un modelo de caja flexible para el diseño */
+    justify-content: space-between;
+    /* Distribuye el espacio horizontalmente */
+    align-items: center;
+    /* Alinea elementos verticalmente en el centro */
+    /* Espaciado interno de 2% en la parte superior e inferior y 6rem en los lados */
+    background: radial-gradient(circle at 0% 100%, rgba(0, 0, 0, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    /* Fondo con degradado radial */
+}
+
+.pdatos p {
+    color: #fff;
+}
+
+
+
+
+.vertical-align img {
+    display: flex;
+    /* Utilizamos flexbox para alinear verticalmente estos elementos */
+    flex-direction: column;
+    /* Alinea los elementos en columna */
+    margin-right: 20px;
+    /* Espacio entre los elementos y la sección a la derecha */
+    margin-left: 90px;
+    /* Espacio entre los elementos y la sección a la derecha */
+    width: 170px;
+}
+
+/* Estilo para los enlaces en el footer */
+.Fotersito a {
+    color: white;
+    /* Texto en color blanco */
+    text-decoration: none;
+    /* Sin subrayado */
+    margin: 0 10px;
+    /* Espacio entre los enlaces */
+}
+
+/* Estilo para los enlaces en el footer */
+.iconos a {
+    color: white;
+    /* Texto en color blanco */
+    text-decoration: none;
+    /* Sin subrayado */
+    margin: 0 10px;
+    /* Espacio entre los enlaces */
+
+    color: #f9532d;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: .20rem;
+    text-align: center;
+    width: 26px;
+}
+
+
+@media (max-width: 768px) {
+    .Fotersito {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        min-height: 1vh;
+        z-index: 999;
+    
+        /* Usa un modelo de caja flexible para el diseño */
+        justify-content: space-between;
+        /* Distribuye el espacio horizontalmente */
+        align-items: center;
+        /* Alinea elementos verticalmente en el centro */
+        /* Espaciado interno de 2% en la parte superior e inferior y 6rem en los lados */
+        background: radial-gradient(circle at 0% 100%, rgba(0, 0, 0, 1) 0%, rgba(4, 12, 24, 1) 100%);
+        /* Fondo con degradado radial */
+        overflow: hidden;
+    }
+}

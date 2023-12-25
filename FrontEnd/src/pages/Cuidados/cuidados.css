@@ -1,0 +1,165 @@
+.bodyBackgrounddd {
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    background-image: url("../../img/ImgCuidados/back2.png")
+}
+
+.titulo2 {
+    text-align: center;
+    text-decoration: overline underline;
+    padding-top: 8%;
+    font-size: 58px;
+    color: #fff;
+
+    font-family: 'Rockwell', 'Roboto Slab', sans-serif;
+
+}
+
+.titulo3 {
+    text-align: center;
+
+    padding-top: 8%;
+    font-size: 58px;
+    color: #000;
+
+    font-family: 'Rockwell', 'Roboto Slab', sans-serif;
+
+}
+
+.subtituloCuidados {
+    text-align: center;
+
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Rockwell', 'Roboto Slab', sans-serif;
+
+}
+
+.Color-leter-black {
+    color: #000
+}
+
+
+
+.divflex {
+    margin: 0px 80px;
+    display: flex;
+
+}
+
+.divflex1 {
+    display: grid;
+    justify-content: center;
+    margin: 100px 100px;
+    width: 50%;
+
+}
+
+.divflex2 {
+    margin-left: 50px;
+    width: 50%;
+}
+
+.spanback {
+    opacity: 0.75;
+
+
+    font-size: 16px;
+    width: 100%;
+    border: 30px solid;
+    border-image-source: url("../../img/ImgCuidados/marco-200.png");
+    border-image-slice: 75;
+
+    background-color: #fff;
+}
+
+.imgdiv {
+    width: 100%;
+
+    border: 50px solid;
+    border-image-source: url("../../img/ImgCuidados/marco-200.png");
+    border-image-slice: 65;
+
+
+}
+
+
+
+
+.centradoText {
+
+    text-align: justify;
+    font-family: 'Rockwell', 'Roboto Slab', sans-serif;
+
+
+}
+
+
+.mensajetext {
+    position: relative;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.mensajetext::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+
+
+
+
+
+
+#lista4 ol {
+    counter-reset: li;
+    list-style: none;
+    list-style: decimal;
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+}
+
+#lista4 ol {
+    margin: 0 0 0 2em;
+}
+
+#lista4 {
+    list-style-type: none;
+    list-style-type: decimal;
+    /*IE 7- hack*/
+
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+
+    counter-reset: li-counter;
+}
+
+#lista4>li {
+    margin-bottom: 20px;
+    padding: 1em;
+    border-left: 2px solid #CCCCCC;
+    background-color: #f5f5f5;
+}
+
+
+
+@media screen and (max-width: 781px) {
+    .bodyBackgrounddd {
+        overflow: hidden;
+    }
+}

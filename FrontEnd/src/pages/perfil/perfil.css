@@ -1,0 +1,47 @@
+/* Estilos para el título del perfil */
+.TituloPerfil {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para el botón de cerrar sesión */
+.BotonCerrarSeccionn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.BotonCerrarSeccionn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos específicos para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .TituloPerfil {
+        font-size: 40px;
+        /* Reduzca el tamaño de fuente para pantallas más pequeñas si es necesario */
+    }
+
+    .BotonCerrarSeccion {
+        font-size: 14px;
+        /* Reduzca el tamaño de fuente del botón para pantallas más pequeñas si es necesario */
+    }
+}
+
+/* Estilos específicos para pantallas aún más pequeñas */
+@media (max-width: 576px) {
+    .TituloPerfil {
+        font-size: 30px;
+        /* Reduzca aún más el tamaño de fuente para pantallas muy pequeñas si es necesario */
+    }
+
+    .BotonCerrarSeccion {
+        font-size: 12px;
+        /* Reduzca aún más el tamaño de fuente del botón para pantallas muy pequeñas si es necesario */
+    }
+}

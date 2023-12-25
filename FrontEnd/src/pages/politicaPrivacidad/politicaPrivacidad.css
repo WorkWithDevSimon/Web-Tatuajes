@@ -1,0 +1,29 @@
+.politica-privacidad {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  p {
+    color: #555;
+    font-size: 16px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,25 @@
+/* verProductos.css */
+
+.botonaMasFuncionalidades {
+    margin: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botonaMasFuncionalidades:hover {
+    background-color: #45a049;
+}
+
+.escoger-container {
+    width: 70%;
+    /* Ajusta el ancho según tus necesidades */
+    margin: auto;
+    /* Centra el contenedor horizontalmente */
+    padding: 20px;
+    /* Añade un espacio alrededor del gráfico */
+}

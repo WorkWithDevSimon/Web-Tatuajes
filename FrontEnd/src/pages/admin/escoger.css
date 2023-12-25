@@ -1,0 +1,81 @@
+ /* Estilos para el contenedor principal */
+ .chart-container-wrapper {
+     display: flex;
+     justify-content: space-between;
+     max-width: 1000px;
+     /* Ajusta según tus necesidades */
+     margin: auto;
+     flex-direction: row-reverse;
+     /* Coloca los elementos en línea y reversa el orden */
+ }
+
+ .containeerdegraficos {
+     display: flex;
+     justify-content: space-between;
+     /* Distribuir los elementos de manera uniforme */
+     align-items: flex-start;
+     /* Alinear los elementos en la parte superior */
+ }
+
+
+
+
+ .chart-container,
+ .Graficodebarra {
+     flex: 1;
+     /* Distribuir el espacio disponible de manera equitativa entre los elementos */
+     margin: 20px;
+     max-width: 500px;
+     /* Tamaño medio, ajusta según tus necesidades */
+   
+ }
+ .Graficodebarra {
+    flex: 1;
+    /* Distribuir el espacio disponible de manera equitativa entre los elementos */
+    margin: 20px;
+    max-width: 650px;
+    /* Tamaño medio, ajusta según tus necesidades */
+  
+}
+
+
+
+ .chartProductos {
+     display: flex;
+     justify-content: space-between;
+     max-width: 80%;
+     /* Ajusta según tus necesidades */
+     margin: auto;
+     flex-direction: row-reverse;
+     /* Coloca los elementos en línea y reversa el orden */
+
+
+
+ }
+
+ /* Estilos para el gráfico de rosquilla */
+ #donut-chart canvas {
+     max-height: 300px;
+ }
+
+ /* Estilos para el gráfico de barras */
+ #bar-chart canvas {
+     max-height: 300px;
+ }
+
+ .botonaMasFuncionalidades {
+     margin: 10px;
+     display: inline-block;
+     padding: 10px 20px;
+     font-size: 16px;
+     color: #fff;
+     background-color: #000;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s;
+ }
+
+ .botonaMasFuncionalidades:hover {
+     background-color: #ff0000;
+ }

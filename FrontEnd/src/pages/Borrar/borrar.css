@@ -1,0 +1,55 @@
+.contenedorBorrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.custom {
+    background-color: rgb(0, 0, 0);
+    /* Ajusta el valor alpha para la opacidad */
+    padding: 50px;
+    border-radius: 10px;
+    color: white;
+    /* Ajusta el color del texto para que sea legible en un fondo oscuro */
+}
+
+.botones-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 0; /* Añade esta línea para eliminar márgenes */
+    margin-bottom: 0; /* Añade esta línea para eliminar márgenes */
+    margin-left: 0; /* Añade esta línea para eliminar márgenes */
+}
+
+
+.boton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.aceptar {
+    background-color: #3498db; /* Color de fondo para el botón Aceptar (azul) */
+    color: white;
+    margin-right: 10px; /* Margen derecho para el botón Aceptar */
+}
+
+.cancelar {
+    background-color: #e74c3c; /* Color de fondo para el botón Cancelar (rojo) */
+    color: white;
+    margin-left: 10px; /* Margen izquierdo para el botón Cancelar */
+}
+
+.boton:hover {
+    background-color: white;
+    color: black;
+}

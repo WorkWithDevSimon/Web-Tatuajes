@@ -1,0 +1,74 @@
+/* historia.css */
+
+.history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.divtitulo {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.divtitulo h1 {
+    color: #fff;
+}
+
+.divtitulo:hover h1,
+.divtitulo:hover {
+    background-color: #f6f6f6;
+    color: #000000;
+}
+
+.titulo {
+    font-size: 2rem;
+}
+
+.subtitulo {
+    font-size: 1.5rem;
+    color: red;
+}
+
+.detail {
+    padding: 20px;
+    text-align: left;
+    max-width: 900px;
+}
+
+
+.detail li {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+ 
+
+.images-carta {
+    display: flex;
+    width: 100%;
+    height: 440px;
+
+}
+
+.images-carta img {
+    width: 0px;
+    flex-grow: 1;
+
+    object-fit: cover;
+
+
+    transition: .5s ease;
+
+    border-radius: 2px;
+}
+
+.images-carta img:hover {
+
+    cursor: crosshair;
+    width: 100px;
+    opacity: 1;
+    filter: contrast(120%);
+}

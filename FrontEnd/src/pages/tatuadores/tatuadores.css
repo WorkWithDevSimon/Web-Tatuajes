@@ -1,0 +1,146 @@
+.Secciion {
+  margin: 16px 50px;
+  ;
+}
+
+
+
+.Color-leter-red {
+  color: red;
+
+}
+
+.Color-leter-white {
+  color: #fff;
+
+}
+
+
+.centrado {
+  text-align: center;
+  text-decoration: overline underline;
+  font-family: 'Rockwell', 'Roboto Slab', sans-serif;
+  text-decoration: overline underline;
+
+}
+
+.titulo {
+  text-align: center;
+  margin: 8%;
+  font-size: 58px;
+  font-family: 'Rockwell', 'Roboto Slab', sans-serif;
+  color: #1F252E;
+
+}
+
+
+.background {
+
+  background-repeat: no-repeat;
+  background-image: url("../../img/ImgTatuadores/backGroundArbol2.jpg");
+}
+
+
+
+
+.div-cartas-izquierda {
+
+  float: left;
+  width: 60%;
+  /* Ajusta el ancho de la sección según tus necesidades */
+  /* Ajusta el ancho de la sección según tus necesidades */
+
+  margin: 1%;
+  border-radius: 50px;
+  background-color: #1F252E;
+}
+
+.div-cartas-derecha {
+  float: right;
+  width: 60%;
+  margin-right: 1%;
+  border-radius: 50px;
+  background-color: #1F252E;
+}
+
+
+
+
+
+
+.main {
+  display: flex;
+  /* Hacer que los elementos se distribuyan en línea */
+  flex-wrap: wrap;
+  /* Permitir que se envuelvan en una nueva línea si no caben en el ancho del contenedor */
+  justify-content: space-between;
+  /* Espacio uniforme entre los elementos */
+  align-items: center;
+  /* Centrar verticalmente los elementos */
+  margin: 5% 1% auto;
+}
+
+.detail {
+  flex: 1;
+  /* El detalle ocupa el espacio restante disponible */
+  /* Estilos para el detalle */
+}
+
+.images-carta {
+  padding-bottom: 30px;
+  flex: 1;
+  border-radius: 10px;
+}
+
+.images-carta img {
+
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+.main h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+
+}
+
+.main p {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.social a {
+  color: #f9532d;
+  font-size: 2rem;
+  border-radius: 50%;
+  padding: .35rem;
+  text-align: center;
+  width: 26px;
+}
+
+
+
+
+
+
+@media (max-width: 739px) {
+  .container {
+
+    overflow: hidden;
+    /* Agrega una barra de desplazamiento si el contenido desborda */
+
+
+
+  }
+
+
+}

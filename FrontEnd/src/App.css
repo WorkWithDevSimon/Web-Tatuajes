@@ -1,0 +1,19 @@
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+} */
+
+/* Okey aqui estamos ocupando las propiedades dentro de nuestro index.css */
+body {
+  background: #ffffff;
+}
+
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+ 
